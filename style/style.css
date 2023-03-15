@@ -274,7 +274,7 @@ main {
 .info-box .box-img {
   margin: 0 auto;
   width: 60px;
-  height: ;
+
   overflow: hidden;
 }
 .info-box .box-img img {
@@ -489,7 +489,6 @@ main {
 }
 
 .research-team-photo {
-  /* background-color: blueviolet; */
   width: 600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -579,9 +578,7 @@ display: grid;
   column-gap: 50px;
 }
 
-.fullarticle .part {
-  /* background-color: blueviolet; */
-}
+
 .part1img img {
   width: 100%;
 }
@@ -804,6 +801,7 @@ footer section {
 
   .speakers-container{
     width: 100%;
+    padding: 20px;
   }
 
 
@@ -885,5 +883,10 @@ footer section {
 
   .about .divider{
     width: 100%;
+  }
+
+  .footer{
+    flex-direction: column;
+    align-items: center;
   }
 }
